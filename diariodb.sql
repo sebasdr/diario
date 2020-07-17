@@ -44,7 +44,7 @@ CREATE TABLE `notas` (
 CREATE TABLE `users` (
   `correoElectronico` varchar(100) NOT NULL,
   `passwor` varchar(200) NOT NULL,
-  `recuperar` varchar(100) not null
+  `recuperar` varchar(100) null
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
